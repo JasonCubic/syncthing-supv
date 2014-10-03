@@ -20,5 +20,5 @@ docker run -d --name='syncthing' \
 -v /srv/docker/volumes/syncthing/config:/home/syncthing/.config/syncthing \
 -v /srv/docker/volumes/syncthing/sync:/home/syncthing/Sync \
 -e 'STGUIADDRESS=https://0.0.0.0:8080' \
-jasoncubic/syncthing-supv
+jcubic/syncthing-supv
 ```
